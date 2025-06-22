@@ -1805,4 +1805,4 @@ async def trade(ctx, member: discord.Member):
 
 # ... (остальные команды add_item, remove_item и т.д. остаются без изменений)
 
-bot.run("MTM4NjA2NzYyMTU2MDE4OTA4MA.GJcEJZ.nIcrz5eOPttqSEPtM55bB7-u256EOMe-4JozNQ")  # Замените на реальный токен
+bot.run(process.env.TOKEN)  # Замените на реальный токен
